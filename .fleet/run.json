@@ -1,5 +1,56 @@
 {
     "configurations": [
-        
+      {
+        "name": "vite dev",
+        "type": "command",
+        "environment": {
+          "npm_config_color": "always",
+          "MOCHA_COLORS": "1",
+          "FORCE_COLOR": "true",
+          "DEBUG_COLORS": "true",
+          "COLORTERM": "true",
+        },
+        "program": "C:\\Program Files\\nodejs\\npm.cmd",
+        "args": ["run","dev"],
+      },
+      {
+        "name": "vite build",
+        "type": "command",
+        "environment": {
+          "npm_config_color": "always",
+          "MOCHA_COLORS": "1",
+          "FORCE_COLOR": "true",
+          "DEBUG_COLORS": "true",
+          "COLORTERM": "true",
+        },
+        "program": "C:\\Program Files\\nodejs\\npm.cmd",
+        "args": ["run","build"],
+      },
+      {
+        "name": "vite preview",
+        "type": "command",
+        "environment": {
+          "npm_config_color": "always",
+          "MOCHA_COLORS": "1",
+          "FORCE_COLOR": "true",
+          "DEBUG_COLORS": "true",
+          "COLORTERM": "true",
+        },
+        "program": "C:\\Program Files\\nodejs\\npm.cmd",
+        "args": ["run","preview"],
+      },
+      {
+        "name": "storybook dev",
+        "type": "command",
+        "environment": {
+          "npm_config_color": "always",
+          "MOCHA_COLORS": "1",
+          "FORCE_COLOR": "true",
+          "DEBUG_COLORS": "true",
+          "COLORTERM": "true",
+        },
+        "program": "C:\\Program Files\\nodejs\\npm.cmd",
+        "args": ["run","storybook"],
+      },
     ]
 }
